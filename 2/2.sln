@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2", "2\2.vcxproj", "{6724E2DE-E5B1-4608-9087-689311069065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{2289ADF2-C32C-4018-A2AD-379DA4349032}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6724E2DE-E5B1-4608-9087-689311069065}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{6724E2DE-E5B1-4608-9087-689311069065}.Debug|x64.ActiveCfg = Debug|x64
+		{6724E2DE-E5B1-4608-9087-689311069065}.Debug|x64.Build.0 = Debug|x64
+		{6724E2DE-E5B1-4608-9087-689311069065}.Debug|x86.ActiveCfg = Debug|Win32
+		{6724E2DE-E5B1-4608-9087-689311069065}.Debug|x86.Build.0 = Debug|Win32
+		{6724E2DE-E5B1-4608-9087-689311069065}.Release|Any CPU.ActiveCfg = Release|Win32
+		{6724E2DE-E5B1-4608-9087-689311069065}.Release|x64.ActiveCfg = Release|x64
+		{6724E2DE-E5B1-4608-9087-689311069065}.Release|x64.Build.0 = Release|x64
+		{6724E2DE-E5B1-4608-9087-689311069065}.Release|x86.ActiveCfg = Release|Win32
+		{6724E2DE-E5B1-4608-9087-689311069065}.Release|x86.Build.0 = Release|Win32
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Debug|x64.Build.0 = Debug|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Debug|x86.Build.0 = Debug|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Release|x64.ActiveCfg = Release|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Release|x64.Build.0 = Release|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Release|x86.ActiveCfg = Release|Any CPU
+		{2289ADF2-C32C-4018-A2AD-379DA4349032}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE57E846-B503-446B-AAD1-B5E464A386B3}
+	EndGlobalSection
+EndGlobal

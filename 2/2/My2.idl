@@ -1,0 +1,58 @@
+// 2.idl : type library source for ActiveX Control project.
+
+// This file will be processed by the MIDL compiler tool to
+// produce the type library (2.tlb) that will become a resource in
+// 2.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+#define DISPID_TEST_METHOD (1025314)
+#define DISPID_RADIUS_METHOD (1025315)
+
+
+[ uuid(0d292a76-7323-4553-9a85-8815955a6f7b), version(1.0),
+  control ]
+library My2Lib
+{
+	importlib(STDOLE_TLB);
+
+	//  Primary dispatch interface for CActiveXCPPCtrl
+	[ 
+		uuid(6ad06cf9-b4d0-45f0-802b-716e44f78d32)
+	]
+	dispinterface _DMy2
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(DISPID_TEST_METHOD)] long TestMyMethod(long param1, long param2, BSTR param3);
+			[id(DISPID_RADIUS_METHOD)] long AreaByRadius(long param);
+
+	};
+
+	//  Event dispatch interface for CActiveXCPPCtrl
+
+	[ 
+		uuid(65244d07-6fed-4a8d-9e15-9e3c1c181e4f)
+	]
+	dispinterface _DMy2Events
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			[id(1)] void EventHandlerTest(BSTR name, BSTR surname, LONG age);
+	};
+
+	//  Class information for CActiveXCPPCtrl
+	[
+		uuid(7879f7c2-53dc-4d1f-a48e-6b705ca66f56)
+	]
+	coclass My2
+	{
+		[default] dispinterface _DMy2;
+		[default, source] dispinterface _DMy2Events;
+	};
+
+};
